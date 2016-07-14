@@ -36,6 +36,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.viewgroup:
                 startActivity(new Intent(MainActivity.this,ViewGroupActivity.class));
                 break;
+            case R.id.viewgroup2:
+                startActivity(new Intent(MainActivity.this,ViewGroupActivity2.class));
+                break;
         }
     }
 }

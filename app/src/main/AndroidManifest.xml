@@ -17,6 +17,7 @@
         </activity>
         <activity android:name=".ViewActivity" />
         <activity android:name=".ViewGroupActivity"/>
+        <activity android:name=".ViewGroupActivity2"/>
     </application>
 
 </manifest>

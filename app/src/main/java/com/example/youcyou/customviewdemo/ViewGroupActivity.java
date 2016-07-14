@@ -18,6 +18,8 @@ import java.util.ArrayList;
 /**
  * 显示viewgroup 的activity
  *
+ * 在父view中处理冲突
+ *
  * @since 16/7/14.
  */
 public class ViewGroupActivity extends Activity {
