@@ -1,22 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
     tools:context="com.example.youcyou.customviewdemo.MainActivity">
 
 
-    <FrameLayout
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/view"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#6333">
-        <com.example.youcyou.customviewdemo.CircleView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:circle_color="#00f"
-            app:circle_radius="150dp"></com.example.youcyou.customviewdemo.CircleView>
+        android:text="view" />
 
-    </FrameLayout>
+    <Button
+        android:id="@+id/viewgroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="viewgroup" />
 
-</RelativeLayout>
+    <Button
+        android:id="@+id/viewgroup2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="viewgroup2" />
+
+</LinearLayout>
